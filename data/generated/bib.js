@@ -74,6 +74,18 @@
         "volume": "31",
         "year": "2020"
     },
+    "lundberg2017unified": {
+        "abstract": "Understanding why a model makes a certain prediction can be as crucial as the prediction's accuracy in many applications. However, the highest accuracy for large modern datasets is often achieved by complex models that even experts struggle to interpret, such as ensemble or deep learning models, creating a tension between accuracy and interpretability. In response, various methods have recently been proposed to help users interpret the predictions of complex models, but it is often unclear how these methods are related and when one method is preferable over another. To address this problem, we present a unified framework for interpreting predictions, SHAP (SHapley Additive exPlanations). SHAP assigns each feature an importance value for a particular prediction. Its novel components include: (1) the identification of a new class of additive feature importance measures, and (2) theoretical results showing there is a unique solution in this class with a set of desirable properties. The new class unifies six existing methods, notable because several recent methods in the class lack the proposed desirable properties. Based on insights from this unification, we present new methods that show improved computational performance and/or better consistency with human intuition than previous approaches.",
+        "archiveprefix": "arXiv",
+        "author": "Scott Lundberg and Su-In Lee",
+        "doi": "https://doi.org/10.48550/arXiv.1705.07874",
+        "eprint": "1705.07874",
+        "keywords": "type:Artificial intelligence, Machine learning",
+        "primaryclass": "cs.AI",
+        "title": "A Unified Approach to Interpreting Model Predictions",
+        "type": "misc",
+        "year": "2017"
+    },
     "mallet2023hybrid": {
         "abstract": "The growing reliance of society on social media for authentic information has done nothing but increase over the past years. This has only raised the potential consequences of the spread of misinformation. One of the growing methods in popularity is to deceive users using a deepfake. A deepfake is an invention that has come with the latest technological advancements, which enables nefarious online users to replace their face with a computer generated, synthetic face of numerous powerful members of society. Deepfake images and videos now provide the means to mimic important political and cultural figures to spread massive amounts of false information. Models that can detect these deepfakes to prevent the spread of misinformation are now of tremendous necessity. In this paper, we propose a new deepfake detection schema utilizing two deep learning algorithms: long short term memory and multilayer perceptron. We evaluate our model using a publicly available dataset named 140k Real and Fake Faces to detect images altered by a deepfake with accuracies achieved as high as 74.7%",
         "archiveprefix": "arXiv",
@@ -99,20 +111,6 @@
         "type": "misc",
         "url": "https://arxiv.org/abs/2007.12358",
         "year": "2020"
-    },
-    "mosca-etal-2022-shap": {
-        "abstract": "Model explanations are crucial for the transparent, safe, and trustworthy deployment of machine learning models. The SHapley Additive exPlanations (SHAP) framework is considered by many to be a gold standard for local explanations thanks to its solid theoretical background and general applicability. In the years following its publication, several variants appeared in the literature\u2014presenting adaptations in the core assumptions and target applications. In this work, we review all relevant SHAP-based interpretability approaches available to date and provide instructive examples as well as recommendations regarding their applicability to NLP use cases.",
-        "address": "Gyeongju, Republic of Korea",
-        "author": "Mosca, Edoardo  and Szigeti, Ferenc  and Tragianni, Stella  and Gallagher, Daniel  and Groh, Georg",
-        "booktitle": "Proceedings of the 29th International Conference on Computational Linguistics",
-        "keywords": "type:Linguistics, Machine learning, Natural Language Processing, Artificial Intelligence",
-        "month": "oct",
-        "pages": "\"4593--4603\",",
-        "publisher": "International Committee on Computational Linguistics",
-        "title": "SHAP-Based Explanation Methods: A Review for {NLP} Interpretability",
-        "type": "inproceedings",
-        "url": "https://aclanthology.org/2022.coling-1.406",
-        "year": "2022"
     },
     "tjoa2023improving": {
         "abstract": "This paper quantifies the quality of heatmap-based eXplainable AI (XAI) methods w.r.t image classification problem. Here, a heatmap is considered desirable if it improves the probability of predicting the correct classes. Different XAI heatmap-based methods are empirically shown to improve classification confidence to different extents depending on the datasets, e.g. Saliency works best on ImageNet and Deconvolution on Chest X-Ray Pneumonia dataset. The novelty includes a new gap distribution that shows a stark difference between correct and wrong predictions. Finally, the generative augmentative explanation is introduced, a method to generate heatmaps capable of improving predictive confidence to a high level.",
